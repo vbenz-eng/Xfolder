@@ -1,0 +1,29 @@
+[33mcommit 9dca3c7c10fb85a4d9feb5d1c11eaa60217ff230[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: vbenz-eng <151744795+vbenz-eng@users.noreply.github.com>
+Date:   Tue Jun 30 09:13:48 2026 +0300
+
+    complet
+
+[1mdiff --git a/main.py b/main.py[m
+[1mindex 80db560..cdbe21f 100644[m
+[1m--- a/main.py[m
+[1m+++ b/main.py[m
+[36m@@ -11,4 +11,4 @@[m [mfor number in numbers:[m
+         else:[m
+             print("invalid input")[m
+     else:[m
+[31m-        print("invalid input")[m
+\ No newline at end of file[m
+[32m+[m[32m        print("invalid input")complete[m
+[1mdiff --git a/main1.py b/main1.py[m
+[1mindex 5c39197..a363311 100644[m
+[1m--- a/main1.py[m
+[1m+++ b/main1.py[m
+[36m@@ -13,4 +13,5 @@[m [mdef number_checker(numbers):[m
+ num_input = input("Enter comma separated numbers: ")[m
+ saved_numbers = [int(x.strip()) for x in num_input.split(',')][m
+ [m
+[31m-number_checker(saved_numbers)[m
+\ No newline at end of file[m
+[32m+[m[32mnumber_checker(saved_numbers)complete[m
+[32m+[m[32mcomplete[m

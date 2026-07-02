@@ -12,3 +12,5 @@ for number in numbers:
             print("invalid input")
     else:
         print("invalid input")complete
+        
+print("Program completed")
