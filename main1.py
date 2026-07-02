@@ -13,5 +13,5 @@ def number_checker(numbers):
 num_input = input("Enter comma separated numbers: ")
 saved_numbers = [int(x.strip()) for x in num_input.split(',')]
 
-number_checker(saved_numbers)complete
-complete
+number_checker(saved_numbers)
+print("Thank you for using the number checker!")
